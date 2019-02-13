@@ -1,0 +1,8 @@
+version: '3.4'
+services:
+  ponysay:
+    image: louhde/ponysay:latest
+    container_name: ponysay
+    build:
+      context: ./
+    
