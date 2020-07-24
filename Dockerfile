@@ -1,6 +1,6 @@
 FROM python:3-slim-stretch
 
-MAINTAINER Julie Hourcade <juliehhourcade@gmail.com>
+LABEL maintainer=julie@louhde.tech
 
 RUN apt-get update && apt-get install -y wget unzip openssl texinfo && \
     wget -O ponysay.zip http://github.com/erkin/ponysay/archive/master.zip && \
